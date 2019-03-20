@@ -24,7 +24,7 @@ class School
   
   def sort 
     
-    @roster.sort.collect do |k,v| puts "#{k} =>"  v.sort
+    @roster.sort.collect do |k,v|  v.sort
       
     end 
   end 
