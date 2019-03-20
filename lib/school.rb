@@ -1,4 +1,5 @@
 class School 
+  attribute
   def initialize(name)
     @name=name 
     @roster= {}
