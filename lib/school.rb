@@ -29,6 +29,6 @@ class School
        
         sorted[grade]=name.sort
      end 
- binding.pry
+    sorted 
   end 
 end
