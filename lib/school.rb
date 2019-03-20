@@ -9,9 +9,9 @@ class School
   def add_student(name,grade)
     @name=name
     @grade=grade 
-    if @roster
-    @roster[grade]=[]
-    @roster[grade]<< name 
+      if @roster[grade] == nil 
+        @roster[grade]=[]
+        @roster[grade]<< name 
   end 
   
 end
