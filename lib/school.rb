@@ -1,3 +1,4 @@
+require "pry"
 class School 
   attr_accessor :roster
   
@@ -21,4 +22,5 @@ class School
       @grade= @roster[grade]
   end 
   def sort 
+    binding.pry
 end
