@@ -24,8 +24,8 @@ class School
   
   def sort 
      binding.pry
-     @roster.sort.collect do |k,v|  
-       v.sort
+     @roster.sort.collect do |grade,name|  
+       name.sort
      end 
   end 
 end
