@@ -9,7 +9,7 @@ class School
   def add_student(name,grade)
     @name=name
     @grade=grade 
-      if @roster[grade] == nil 
+      if @roster.has_key
         @roster[grade]=[]
         @roster[grade]<< name 
   end 
