@@ -21,9 +21,10 @@ class School
   def grade(grade)
       @grade= @roster[grade]
   end 
+  
   def sort 
     
-    @roster.sort.collect do |k,v| "#{k} =>" v.sort
+    @roster.sort.collect do |k,v|  v.sort
       
     end 
   end 
