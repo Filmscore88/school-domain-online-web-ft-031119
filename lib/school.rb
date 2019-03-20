@@ -9,4 +9,8 @@ class School
     @name=name
     @grade=grade 
   end 
+  def add_student 
+    @name 
+    @grade 
+  end 
 end
