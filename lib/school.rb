@@ -26,7 +26,7 @@ class School
      sorted={}
      @roster.collect do |grade,name|  
        binding.pry
-       name.sort
+        sorted[grade]=name.sort
      end 
   end 
 end
