@@ -1,5 +1,5 @@
 class School 
-  attribute
+  attribute_access
   def initialize(name)
     @name=name 
     @roster= {}
